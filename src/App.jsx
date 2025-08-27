@@ -1,5 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import nodeLogo from '/nodejs-svgrepo-com.svg'
+import reactLogo from '/reactjs-fill-svgrepo-com.svg'
+import mysqlLogo from '/mysql-svgrepo-com.svg'
+import pythonLogo from '/python-svgrepo-com.svg'
+import githubLogo from '../public/github-svgrepo-com.svg'
+import treactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -17,17 +22,17 @@ function App() {
       <section id="skills">
           <h2 id="skills_title">My Skills</h2>
           <div id="skill_list">
-              <a class="skills_link" href="https://nodejs.org/en"><img src="public\nodejs-svgrepo-com.svg" id="nodejs_img" class="skills_img"></img></a>
-              <a class="skills_link" href="https://react.dev/"><img src="public\reactjs-fill-svgrepo-com.svg" id="reactjs_img" class="skills_img"></img></a>
-              <a class="skills_link" href="https://www.mysql.com/"><img src="public\mysql-svgrepo-com.svg" id="mysql_img" class="skills_img"></img></a>
-              <a class="skills_link" href="https://www.python.org/"><img src="public\python-svgrepo-com.svg" id="python_img" class="skills_img"></img></a>
+              <a class="skills_link" href="https://nodejs.org/en"><img src={nodeLogo} id="nodejs_img" class="skills_img"></img></a>
+              <a class="skills_link" href="https://react.dev/"><img src={reactLogo} id="reactjs_img" class="skills_img"></img></a>
+              <a class="skills_link" href="https://www.mysql.com/"><img src={mysqlLogo} id="mysql_img" class="skills_img"></img></a>
+              <a class="skills_link" href="https://www.python.org/"><img src={pythonLogo} id="python_img" class="skills_img"></img></a>
           </div>
       </section>
 
       <section id="projects">
           <h2 id="projects_title">My Projects</h2>
           <div id="project_list">
-              <a class="project_link" href="https://github.com/ekacala"><img src="public\github-svgrepo-com.svg" id="github_img" class="project_img"></img></a>
+              <a class="project_link" href="https://github.com/ekacala"><img src={githubLogo} id="github_img" class="project_img"></img></a>
           </div>
       </section>
       <section id="contact">
