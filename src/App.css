@@ -112,7 +112,7 @@ h1 {
 #contact {
   width: 80%;
   margin: 0 auto;
-  
+  display: none;
 }
 
 #contact_title {
@@ -121,17 +121,24 @@ h1 {
 }
 
 #email_form {
-  width: 50%;
+  width: 70%;
   margin: 0 auto 25px auto;
-  padding: 40px 80px;
+  padding: 40px 5%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border: #fff 1px solid;
   border-radius: 10px;
 }
 
 .contact_label {
   margin: 10px 0 5px 0;
+  width: 60%;
+  text-align: center;
+}
+
+input {
+  width: 60%;
 }
 
 .card {
