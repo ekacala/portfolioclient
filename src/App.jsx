@@ -4,6 +4,7 @@ import reactLogo from '/reactjs-fill-svgrepo-com.svg'
 import mysqlLogo from '/mysql-svgrepo-com.svg'
 import pythonLogo from '/python-svgrepo-com.svg'
 import githubLogo from '../public/github-svgrepo-com.svg'
+import backlogReviewsMin from '../public/backlog_reviews_min.png'
 import treactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,7 +33,10 @@ function App() {
       <section id="projects">
           <h2 id="projects_title">My Projects</h2>
           <div id="project_list">
-              <a class="project_link" href="https://github.com/ekacala"><img src={githubLogo} id="github_img" class="project_img"></img></a>
+              <div class="project_card">
+                <a class="project_link" href="https://github.com/ekacala/backlog-reviews"><img src={backlogReviewsMin} id="backlog_img" class="project_img"></img></a>
+                <p class="project_description">Frontend design for a gaming review website</p>
+              </div>
           </div>
       </section>
       <section id="contact">

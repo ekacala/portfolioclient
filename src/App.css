@@ -98,15 +98,36 @@ h1 {
   flex-wrap: wrap;
 }
 
+.project_card {
+  position: relative;
+}
+
 .project_img {
-  padding: 20px;
   margin: 15px;
-  border: #fff 1px solid;
-  border-radius: 10%;
-  width: 250px;
-  height: 250px;
+  padding: 15px;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
   flex-shrink: 2;
 }
+
+.project_description {
+  position: absolute;
+  top: 1px;
+  left: 8%;
+  display: none;
+}
+
+.project_img:hover {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.project_link:hover + .project_description {
+  display: inline;
+  
+}
+
 
 /*----------------------Contact----------------------*/
 #contact {
